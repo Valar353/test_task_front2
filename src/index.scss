@@ -1,0 +1,23 @@
+.product_count_wrapper .stepper-arrow{
+  background-image: url('/img/jquery.fs.stepper-arrows.png');
+}
+.product_count_wrapper .stepper-arrow.up{
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+}
+.product_count_wrapper .stepper-arrow.down{
+  border-bottom: none;
+  border-right: none;
+}
+.stepper-arrow {
+  position: absolute;
+}
+.list--unit-desc .unit--desc-i{
+  background-image: url('/img/unit--i.png');
+}
+@media (max-width: 999px) and (min-width: 0px){
+  .product_horizontal{
+    height: auto;
+  }
+}
